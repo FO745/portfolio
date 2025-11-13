@@ -77,9 +77,22 @@ header span{
        width: 100%;
        gap: 16px;
     }
+section ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+    gap: 15px;
+}
 
 main{
     padding: 2%;
+}
+
+
+
+
+footer{
+    justify-content: center;
 }
 
 
