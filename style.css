@@ -9,7 +9,7 @@ body, html{
 nav{ 
     display: flex;
     /* width: 100%;  */
-    border-bottom: 2px solid gray; 
+    border-bottom: 2px solid rgb(248, 245, 245); 
     padding: 2%;
     justify-content: space-around;
 }
@@ -29,10 +29,11 @@ nav ul{
 
 
 header{
-    height: 30vh;
+     height: 30vh;
     display: flex;
     flex-direction: row;
     padding: 2%;
+   
 }
 header .presentation{
     width: 50%;
@@ -89,10 +90,30 @@ main{
 }
 
 
+#background{
 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
 
 footer{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:13px;
     justify-content: center;
+    background: black;
+    color: white;
 }
 
 
